@@ -149,7 +149,8 @@ body {
 .chat-window {
   height: 360px;
   border: 1px solid #1d1d1d;
-  border-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
@@ -162,6 +163,12 @@ body {
 .latest{
   width: 100%;
   background: #ff003B;
+  color: white;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
 }
 
 /* messages */

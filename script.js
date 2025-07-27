@@ -46,7 +46,7 @@ const workerUrl = 'https://lorealchatbot.mxk2179.workers.dev/';
 chatForm.addEventListener("submit", async (e) => {
   e.preventDefault();
 
-
+  latest.innerHTML = userInput.value;
 
   let newBubble;
 
