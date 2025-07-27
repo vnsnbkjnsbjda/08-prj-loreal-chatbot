@@ -16,15 +16,26 @@
   </head>
 
   <body>
-    <div class="page-wrapper">
-      <!------- Header / Branding ------->
+    <!------- Header / Branding ------->
       <header class="site-header">
+        <img src="/img/loreal-logo-white.png" class='logo'/>
         <h1 class="site-title">Smart Product Advisor</h1>
+        <div class="circle one"></div>
+        <div class="circle two"></div>
+        <div class="circle three"></div>
+        <div class="circle four"></div>
+        <div class="circle five"></div>
+        <div class="circle six"></div>
       </header>
+    <div class="page-wrapper">
 
       <!------- Chat Area ------->
       <main>
         <section class="chatbox">
+          <div id='latest' class="latest">
+            <!-- Where the user's latest response will appear -->
+          </div>
+
           <div id="chatWindow" class="chat-window">
             <!-- messages will be appended here via JS -->
           </div>
@@ -59,7 +70,6 @@
       </footer>
     </div>
 
-    <!-- secrets.js can be removed when using Cloudflare Workers for API requests -->
     <script src="secrets.js"></script>
     <script src="script.js"></script>
   </body>
